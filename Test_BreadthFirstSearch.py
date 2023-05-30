@@ -18,11 +18,11 @@ class Graph:
 
 
 class MyTestCase(unittest.TestCase):
-    def test_searchEmptyGraph(self):
+    def test_makeEmptyGraph(self):
         graph = Graph()
         self.assertTrue(len(graph) == 0)
 
-    def test_searchGraphOfOneNode(self):
+    def test_makeGraphOfOneNode(self):
         graph = Graph()
         graph.createNode("A")
         self.assertTrue(len(graph) == 1)
